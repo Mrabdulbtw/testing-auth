@@ -10,7 +10,7 @@ function App() {
          <button onClick={async()=>{
     
           try {
-             await signInWithPopup(auth,provider)
+             await signInWithRedirect(auth,provider)
 
           } catch (error) {
               console.log(error);
